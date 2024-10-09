@@ -29,5 +29,9 @@ This is a simple web application designed to demonstrate basic HTML, CSS, and Ja
 ## Project Structure
 
 ```
-/project-directory │ ├── index.html # Main HTML file ├── styles.css # CSS file for styling the page and images └── script.js # JavaScript file to handle image expansion and contraction
+/project-directory
+│
+├── index.html # Main HTML file
+├── styles.css # CSS file for styling the page and images
+└── script.js # JavaScript file to handle image expansion and contraction
 ```
