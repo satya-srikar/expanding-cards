@@ -30,7 +30,7 @@ body {
   color: #fff;
   cursor: pointer;
   flex: 0.5;
-  margin: 0.8rem;
+  margin: 1rem;
   position: relative;
   transition: flex 0.7s ease-in;
 }
@@ -38,8 +38,8 @@ body {
 .panel h3 {
   font-size: 2rem;
   position: absolute;
-  bottom: 1.8rem;
-  left: 1.8rem;
+  bottom: 2rem;
+  left: 2rem;
   margin: 0;
   opacity: 0;
 }
@@ -50,15 +50,5 @@ body {
 
 .panel.active h3 {
   opacity: 1;
-}
-
-@media (max-width: 600px) {
-  .container {
-    width: 100vw;
-  }
-
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
-    display: none;
-  }
+  transition: opacity 0.3s ease-in 0.4s;
 }
